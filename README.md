@@ -56,9 +56,16 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 | 11 | [social-engineering](topics/social-engineering/) | Phishing-Analyse, GoPhish, SET, Pretexting, Awareness |
 | 12 | [active-directory-attacks](topics/active-directory-attacks/) | Kerberoasting, AS-REP, LLMNR-Relay, DCSync, BloodHound |
 
-**120 Übungen** · 240 Übungs-/Lösungsdateien · 91 Tool-Referenzen in [`tools/`](tools/).
+### Blue Team / Security Operations (fertig ✅)
 
-Weitere geplante Blöcke (Blue Team, Krypto/Identität, GRC) sind in der Roadmap als ⬜ markiert.
+| # | Thema | Inhalt |
+|---|-------|--------|
+| 13 | [firewall-opnsense](topics/firewall-opnsense/) | Stateful Rules, NAT, VLAN-Segmentierung, Logging, GeoIP/Blocklists, HA/CARP |
+| 14 | [ids-ips](topics/ids-ips/) | Suricata (IDS/IPS), eigene Regeln, Tuning, Angriffserkennung, Zeek NSM, SOC |
+
+**140 Übungen** · 280 Übungs-/Lösungsdateien · 94 Tool-Referenzen in [`tools/`](tools/).
+
+Weitere geplante Blöcke (restliche Blue-Team-, Krypto/Identitäts- und GRC-Themen) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
 
 ## SY0-701-Domänen
 

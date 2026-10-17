@@ -29,8 +29,8 @@
 
 | Status | Thema (slug) | Inhalt | Domäne | Lab |
 |--------|--------------|--------|--------|-----|
-| ⬜ | `firewall-opnsense` | Regeln, NAT, Zonen, Segmentierung, Logging | 3.0 / 4.0 | |
-| ⬜ | `ids-ips` | Suricata/Snort auf OPNsense, Signaturen, Tuning, Alerts | 4.0 | |
+| ✅ | `firewall-opnsense` | Regeln, NAT, Zonen, Segmentierung, Logging | 3.0 / 4.0 | |
+| ✅ | `ids-ips` | Suricata/Snort auf OPNsense, Signaturen, Tuning, Alerts | 4.0 | |
 | ⬜ | `logging-siem` | Log-Analyse, Wazuh/ELK, Korrelation, Alerting | 4.0 | ⚠️ SIEM-VM |
 | ⬜ | `packet-analysis` | Wireshark/tcpdump: Protokolle, Anomalien, IoCs | 4.0 | |
 | ⬜ | `incident-response` | IR-Lifecycle, Triage, Containment, Forensik-Grundlagen | 4.0 | |

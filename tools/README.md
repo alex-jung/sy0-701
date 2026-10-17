@@ -162,3 +162,13 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 | [mimikatz](mimikatz.md) | Credential/Ticket | LSASS-Dump, DCSync, Golden Ticket (Windows) |
 
 *(AD nutzt außerdem [netexec](netexec.md) (PtH/Enum) und [hashcat](hashcat.md) (Modes 18200/13100/5600).)*
+
+## Blue Team: Firewall & IDS/IPS
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [opnsense](opnsense.md) | Firewall | Perimeter: Regeln, NAT, Segmentierung, VPN, HA, Logging |
+| [suricata](suricata.md) | IDS/IPS | Signaturbasierte Erkennung/Prevention (auf OPNsense) |
+| [zeek](zeek.md) | NSM | Metadaten-/Verhaltens-Analyse, Beaconing, Threat Hunting |
+
+*(Blue Team nutzt außerdem [tcpdump](tcpdump.md)/[wireshark](wireshark.md) und zum Testen die offensiven Tools wie [nmap](nmap.md).)*
