@@ -1,0 +1,19 @@
+# Scan-/Lauf-Artefakte aus den Übungen (nicht einchecken)
+scan_*/
+osint_*/
+enum_*/
+*.cap
+*.pcap
+*.pcapng
+*.22000
+*.hccapx
+*.ccache
+loot/
+hashes.txt
+*.pot
+
+# Betriebssystem / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
