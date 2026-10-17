@@ -172,3 +172,13 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 | [zeek](zeek.md) | NSM | Metadaten-/Verhaltens-Analyse, Beaconing, Threat Hunting |
 
 *(Blue Team nutzt außerdem [tcpdump](tcpdump.md)/[wireshark](wireshark.md) und zum Testen die offensiven Tools wie [nmap](nmap.md).)*
+
+## Blue Team: Logging/SIEM & Packet Analysis
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [wazuh](wazuh.md) | SIEM/HIDS/XDR | zentrales Logging, Detection-Regeln, Dashboards, FIM |
+| [rsyslog](rsyslog.md) | Logging | zentrales Syslog sammeln/weiterleiten |
+| [tshark](tshark.md) | Packet Analysis | CLI-PCAP-Analyse (skriptbar) |
+
+*(Packet Analysis nutzt v. a. [wireshark](wireshark.md)/[tcpdump](tcpdump.md); Logging/SIEM bindet [opnsense](opnsense.md)/[suricata](suricata.md)/[zeek](zeek.md) als Quellen ein. ELK/OpenSearch als SIEM-Alternative siehe logging-siem Übung 09.)*

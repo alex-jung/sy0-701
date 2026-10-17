@@ -62,8 +62,10 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 |---|-------|--------|
 | 13 | [firewall-opnsense](topics/firewall-opnsense/) | Stateful Rules, NAT, VLAN-Segmentierung, Logging, GeoIP/Blocklists, HA/CARP |
 | 14 | [ids-ips](topics/ids-ips/) | Suricata (IDS/IPS), eigene Regeln, Tuning, Angriffserkennung, Zeek NSM, SOC |
+| 15 | [logging-siem](topics/logging-siem/) | Zentrales Syslog, Wazuh/ELK, Parsing, Detection-Regeln, Korrelation, Threat Hunting |
+| 16 | [packet-analysis](topics/packet-analysis/) | Wireshark/tshark, Display-Filter, TCP/UDP, Artefakte, Angriffs-/TLS-Analyse, PCAP-Forensik |
 
-**140 Übungen** · 280 Übungs-/Lösungsdateien · 94 Tool-Referenzen in [`tools/`](tools/).
+**160 Übungen** · 320 Übungs-/Lösungsdateien · 97 Tool-Referenzen in [`tools/`](tools/).
 
 Weitere geplante Blöcke (restliche Blue-Team-, Krypto/Identitäts- und GRC-Themen) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
 
