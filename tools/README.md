@@ -192,3 +192,16 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 | [lynis](lynis.md) | Hardening-Audit | Linux-Härtung auditieren (Hardening-Index) |
 
 *(IR nutzt außerdem Imaging (`dd`/`dc3dd`), `avml`/LiME (RAM), `plaso` (Super-Timeline), Containment via [opnsense](opnsense.md) und Detection aus [wazuh](wazuh.md)/[suricata](suricata.md). Hardening nutzt SCAP/CIS, Vuln-Scanner [greenbone](greenbone.md)/[nmap](nmap.md) und Ansible.)*
+
+## Blue Team: Malware Analysis
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [remnux](remnux.md) | Analyse-Distro | Malware-Analyse-Toolsammlung (Linux) |
+| [yara](yara.md) | Erkennung | Signaturregeln für Malware/Familien |
+| [ghidra](ghidra.md) | Reversing | Disassembler + Decompiler (GUI) |
+| [radare2](radare2.md) | Reversing | CLI-Disassembly/Analyse (+rizin) |
+| [oletools](oletools.md) | Dokument-Malware | VBA-Makros extrahieren/deobfuskieren |
+| [inetsim](inetsim.md) | Sandbox | Fake-Internet für dynamische Analyse |
+
+*(Malware-Analyse nutzt außerdem `file`/`strings`/`floss`/`capa`/`pefile`, [volatility](volatility.md) (RAM), CyberChef (Deobfuscation) und bindet Funde als IOCs in [yara](yara.md)/[suricata](suricata.md)/[wazuh](wazuh.md) ein.)*

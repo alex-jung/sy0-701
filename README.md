@@ -66,8 +66,9 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 | 16 | [packet-analysis](topics/packet-analysis/) | Wireshark/tshark, Display-Filter, TCP/UDP, Artefakte, Angriffs-/TLS-Analyse, PCAP-Forensik |
 | 17 | [incident-response](topics/incident-response/) | IR-Lifecycle, Triage, Containment, Beweissicherung, Memory-/Disk-Forensik, Timeline, Postmortem |
 | 18 | [hardening](topics/hardening/) | Baselines/CIS, Linux-/SSH-/Dienst-/Account-/Windows-Härtung, Patch-Mgmt, Netzgeräte |
+| 19 | [malware-analysis](topics/malware-analysis/) | Isolierte Sandbox, statische/dynamische Analyse, Reversing, Obfuscation, IOCs/YARA |
 
-**180 Übungen** · 360 Übungs-/Lösungsdateien · 100 Tool-Referenzen in [`tools/`](tools/).
+**190 Übungen** · 380 Übungs-/Lösungsdateien · 106 Tool-Referenzen in [`tools/`](tools/).
 
 Weitere geplante Blöcke (restliche Blue-Team-, Krypto/Identitäts- und GRC-Themen) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
 
