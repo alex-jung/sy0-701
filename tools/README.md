@@ -182,3 +182,13 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 | [tshark](tshark.md) | Packet Analysis | CLI-PCAP-Analyse (skriptbar) |
 
 *(Packet Analysis nutzt v. a. [wireshark](wireshark.md)/[tcpdump](tcpdump.md); Logging/SIEM bindet [opnsense](opnsense.md)/[suricata](suricata.md)/[zeek](zeek.md) als Quellen ein. ELK/OpenSearch als SIEM-Alternative siehe logging-siem Übung 09.)*
+
+## Blue Team: Incident Response & Hardening
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [volatility](volatility.md) | Memory-Forensik | RAM-Images analysieren (Prozesse/C2/Injection) |
+| [sleuthkit](sleuthkit.md) | Disk-Forensik | Dateisystem/Timeline/gelöschte Dateien (+Autopsy) |
+| [lynis](lynis.md) | Hardening-Audit | Linux-Härtung auditieren (Hardening-Index) |
+
+*(IR nutzt außerdem Imaging (`dd`/`dc3dd`), `avml`/LiME (RAM), `plaso` (Super-Timeline), Containment via [opnsense](opnsense.md) und Detection aus [wazuh](wazuh.md)/[suricata](suricata.md). Hardening nutzt SCAP/CIS, Vuln-Scanner [greenbone](greenbone.md)/[nmap](nmap.md) und Ansible.)*
