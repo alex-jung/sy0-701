@@ -83,10 +83,13 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 | # | Thema | Inhalt |
 |---|-------|--------|
 | 25 | [security-controls](topics/security-controls/) | Control-Typen/-Kategorien, Defense in Depth, Gap-Analyse (CIS), Compensating Controls, ATT&CK-/Framework-Mapping, Assessment |
+| 26 | [risk-management](topics/risk-management/) | Risk Register, qualitative/quantitative Analyse (SLE/ARO/ALE), Treatment, BIA (RTO/RPO), Third-Party, KRIs |
+| 27 | [governance-compliance](topics/governance-compliance/) | Policies/Standards/Procedures, Rollen/RACI, Frameworks, DSGVO/PCI/HIPAA, Audits, Data Governance, Awareness |
+| 28 | [threat-concepts](topics/threat-concepts/) | Threat Actors, Attack Surface/Vektoren, Malware-/Vuln-Typen, IOCs, MITRE ATT&CK/TTPs, Threat Intel, Hunting |
 
-**250 Übungen** · 500 Übungs-/Lösungsdateien · 120 Tool-Referenzen in [`tools/`](tools/).
+**280 Übungen** · 560 Übungs-/Lösungsdateien · 120 Tool-Referenzen in [`tools/`](tools/).
 
-Weitere geplante Blöcke (restliche Blue-Team-, Krypto/Identitäts- und GRC-Themen) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
+Weitere geplante Blöcke (restliche GRC-Themen: `security-architecture`, `data-protection`, `physical-security`) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
 
 ## SY0-701-Domänen
 

@@ -52,9 +52,9 @@
 | Status | Thema (slug) | Inhalt | Domäne | Lab |
 |--------|--------------|--------|--------|-----|
 | ✅ | `security-controls` | Control-Typen (preventive/detective…), Defense in Depth | 1.0 | |
-| ⬜ | `risk-management` | Risk Assessment, BIA, RTO/RPO, Risk Register | 5.0 | |
-| ⬜ | `governance-compliance` | Policies, Frameworks (NIST/ISO 27001), Audits | 5.0 | |
-| ⬜ | `threat-concepts` | Threat Actors, TTPs, MITRE ATT&CK, Indicators | 2.0 | |
+| ✅ | `risk-management` | Risk Assessment, BIA, RTO/RPO, Risk Register | 5.0 | |
+| ✅ | `governance-compliance` | Policies, Frameworks (NIST/ISO 27001), Audits | 5.0 | |
+| ✅ | `threat-concepts` | Threat Actors, TTPs, MITRE ATT&CK, Indicators | 2.0 | |
 | ⬜ | `security-architecture` | Zero Trust, Segmentierung, Cloud/On-Prem, SASE | 3.0 | |
 | ⬜ | `data-protection` | Klassifizierung, DLP, Verschlüsselung at-rest/in-transit | 3.0 | |
 | ⬜ | `physical-security` | Physische Kontrollen, Zutritt, Sensoren | 1.0 / 2.0 | |
