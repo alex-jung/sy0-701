@@ -36,14 +36,14 @@
 | ✅ | `incident-response` | IR-Lifecycle, Triage, Containment, Forensik-Grundlagen | 4.0 | |
 | ✅ | `hardening` | CIS-Benchmarks, Dienste abschalten, Baselines, Patch-Mgmt | 1.0 / 4.0 | |
 | ✅ | `malware-analysis` | Statische/dynamische Analyse in isolierter VM | 2.0 / 4.0 | ⚠️ isolierte VM + Snapshots |
-| ⬜ | `honeypots` | Cowrie/T-Pot aufsetzen, Angriffe beobachten | 4.0 | ⚠️ Honeypot-VM |
+| ✅ | `honeypots` | Cowrie/T-Pot aufsetzen, Angriffe beobachten | 4.0 | ⚠️ Honeypot-VM |
 
 ## Kryptografie & Identität
 
 | Status | Thema (slug) | Inhalt | Domäne | Lab |
 |--------|--------------|--------|--------|-----|
-| ⬜ | `cryptography-basics` | Symmetrisch/asymmetrisch, Hashing, HMAC, openssl-Praxis | 1.0 | |
-| ⬜ | `pki-certificates` | CA aufbauen, CSR, X.509, TLS, Cert-Chains | 1.0 / 3.0 | |
+| ✅ | `cryptography-basics` | Symmetrisch/asymmetrisch, Hashing, HMAC, openssl-Praxis | 1.0 | |
+| ✅ | `pki-certificates` | CA aufbauen, CSR, X.509, TLS, Cert-Chains | 1.0 / 3.0 | |
 | ⬜ | `authentication` | MFA, FIDO2, RADIUS, Kerberos, Credential-Hashing | 1.0 | |
 | ⬜ | `vpn-tunneling` | IPsec/WireGuard/OpenVPN auf OPNsense, Traffic prüfen | 3.0 | |
 

@@ -67,8 +67,16 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 | 17 | [incident-response](topics/incident-response/) | IR-Lifecycle, Triage, Containment, Beweissicherung, Memory-/Disk-Forensik, Timeline, Postmortem |
 | 18 | [hardening](topics/hardening/) | Baselines/CIS, Linux-/SSH-/Dienst-/Account-/Windows-Härtung, Patch-Mgmt, Netzgeräte |
 | 19 | [malware-analysis](topics/malware-analysis/) | Isolierte Sandbox, statische/dynamische Analyse, Reversing, Obfuscation, IOCs/YARA |
+| 20 | [honeypots](topics/honeypots/) | Cowrie/Dionaea/T-Pot, Honeytokens/Canaries, Dashboards, IOCs/Threat Intel, Deception-Strategie |
 
-**190 Übungen** · 380 Übungs-/Lösungsdateien · 106 Tool-Referenzen in [`tools/`](tools/).
+### Kryptografie & Identität (fertig ✅)
+
+| # | Thema | Inhalt |
+|---|-------|--------|
+| 21 | [cryptography-basics](topics/cryptography-basics/) | Hashing, AES/Modi, RSA/ECC, Signaturen, HMAC, Key Exchange, Password-Hashing/KDFs, Krypto-Angriffe |
+| 22 | [pki-certificates](topics/pki-certificates/) | X.509, Root-/Intermediate-CA, CSR, TLS, Chains, SAN/EKU, CRL/OCSP, TLS-Diagnose |
+
+**220 Übungen** · 440 Übungs-/Lösungsdateien · 114 Tool-Referenzen in [`tools/`](tools/).
 
 Weitere geplante Blöcke (restliche Blue-Team-, Krypto/Identitäts- und GRC-Themen) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
 

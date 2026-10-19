@@ -205,3 +205,25 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 | [inetsim](inetsim.md) | Sandbox | Fake-Internet für dynamische Analyse |
 
 *(Malware-Analyse nutzt außerdem `file`/`strings`/`floss`/`capa`/`pefile`, [volatility](volatility.md) (RAM), CyberChef (Deobfuscation) und bindet Funde als IOCs in [yara](yara.md)/[suricata](suricata.md)/[wazuh](wazuh.md) ein.)*
+
+## Blue Team: Honeypots & Deception
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [cowrie](cowrie.md) | Honeypot (SSH/Telnet) | medium-interaction, emulierte Shell, Session-Logging |
+| [dionaea](dionaea.md) | Honeypot (Multi-Service) | low-interaction, Malware-Capture (SMB/HTTP/FTP…) |
+| [t-pot](t-pot.md) | Honeypot-Plattform | viele Honeypots + ELK/Attack-Map (Docker) |
+| [opencanary](opencanary.md) | Honeypot/Canary | leichtgewichtig, Multi-Protocol, Alerts |
+| [canarytokens](canarytokens.md) | Honeytokens | Köder-Token/-Dateien mit Alarm bei Nutzung |
+
+*(Honeypots binden Funde als IOCs in [suricata](suricata.md)/[wazuh](wazuh.md)/[opnsense](opnsense.md) ein und nutzen `jq`/[tshark](tshark.md) zur Auswertung; Visualisierung via ELK/Kibana.)*
+
+## Kryptografie & PKI
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [openssl](openssl.md) | Krypto/TLS/PKI | Hashing, Verschlüsselung, Signaturen, CA/CSR/X.509, TLS-Debug |
+| [gpg](gpg.md) | OpenPGP | Verschlüsselung & Signaturen, Web of Trust |
+| [testssl](testssl.md) | TLS-Analyse | Protokolle/Cipher/PFS/Zert/Schwachstellen prüfen |
+
+*(Krypto/PKI nutzen außerdem Python `cryptography`/`argon2`/`bcrypt` (AEAD/KDFs), `hashcat` (aus password-attacks, Angriffsgeschwindigkeit), `nmap --script ssl-enum-ciphers` und optional `nginx`/`age` für Deployment/Referenz.)*
