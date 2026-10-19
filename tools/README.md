@@ -227,3 +227,27 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 | [testssl](testssl.md) | TLS-Analyse | Protokolle/Cipher/PFS/Zert/Schwachstellen prüfen |
 
 *(Krypto/PKI nutzen außerdem Python `cryptography`/`argon2`/`bcrypt` (AEAD/KDFs), `hashcat` (aus password-attacks, Angriffsgeschwindigkeit), `nmap --script ssl-enum-ciphers` und optional `nginx`/`age` für Deployment/Referenz.)*
+
+## Authentication & Identität
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [oathtool](oathtool.md) | MFA/OTP | HOTP/TOTP-Codes erzeugen/prüfen |
+| [freeradius](freeradius.md) | AAA/RADIUS | zentrale AuthN/Z/Acct, 802.1X, WPA-Enterprise |
+| [krb5](krb5.md) | Kerberos | ticketbasiertes SSO (KDC/TGT/Service-Tickets) |
+
+*(Authentication nutzt außerdem [openssl](openssl.md)/[ssh](ssh.md) (Key-/Cert-Auth), [ldapsearch](ldapsearch.md) (Directory), `libpam-google-authenticator`/`pam_u2f` (MFA), Keycloak (SAML/OIDC-IdP) und [hydra](hydra.md)/[hashcat](hashcat.md) (Angriffsdemos); Querbezug [bloodhound](bloodhound.md)/[mimikatz](mimikatz.md) in active-directory-attacks.)*
+
+## VPN & Tunneling
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [wireguard](wireguard.md) | VPN (modern) | schlankes Public-Key-VPN (Curve25519/ChaCha20) |
+| [openvpn](openvpn.md) | VPN (SSL/TLS) | zertifikatsbasiertes TLS-VPN (PKI/CRL) |
+| [strongswan](strongswan.md) | VPN (IPsec) | IKEv2/ESP, Site-to-Site |
+
+*(VPN nutzt außerdem [openssl](openssl.md)/PKI (OpenVPN/IPsec-Zerts), [opnsense](opnsense.md) (VPN-Gateway/Firewall), [tcpdump](tcpdump.md)/[wireshark](wireshark.md) (Traffic/Leaks), [testssl](testssl.md)/`ike-scan`/[hydra](hydra.md) (Schwächen) und RADIUS/[freeradius](freeradius.md)+MFA fürs Login.)*
+
+## GRC: Security Controls & Governance
+
+*(Security Controls ist konzept-/assessment-orientiert und nutzt keine eigenen Tools, sondern bewertet die vorhandenen: [lynis](lynis.md) (Baseline/Härtung), [greenbone](greenbone.md)/[nmap](nmap.md) (Gaps/Validierung), [wazuh](wazuh.md)/[suricata](suricata.md) (Detective-Wirksamkeit) – gemappt auf CIS Controls v8, NIST 800-53/CSF, ISO 27001 und MITRE ATT&CK.)*

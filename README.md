@@ -75,8 +75,16 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 |---|-------|--------|
 | 21 | [cryptography-basics](topics/cryptography-basics/) | Hashing, AES/Modi, RSA/ECC, Signaturen, HMAC, Key Exchange, Password-Hashing/KDFs, Krypto-Angriffe |
 | 22 | [pki-certificates](topics/pki-certificates/) | X.509, Root-/Intermediate-CA, CSR, TLS, Chains, SAN/EKU, CRL/OCSP, TLS-Diagnose |
+| 23 | [authentication](topics/authentication/) | AAA, MFA (TOTP/FIDO2), SSH-Key/Cert, LDAP, RADIUS/802.1X, Kerberos, SSO (SAML/OAuth/OIDC) |
+| 24 | [vpn-tunneling](topics/vpn-tunneling/) | WireGuard/OpenVPN/IPsec, Remote-Access & Site-to-Site, Split/Full-Tunnel, Härtung, VPN-Angriffe |
 
-**220 Übungen** · 440 Übungs-/Lösungsdateien · 114 Tool-Referenzen in [`tools/`](tools/).
+### Governance, Risk & Compliance (fertig ✅)
+
+| # | Thema | Inhalt |
+|---|-------|--------|
+| 25 | [security-controls](topics/security-controls/) | Control-Typen/-Kategorien, Defense in Depth, Gap-Analyse (CIS), Compensating Controls, ATT&CK-/Framework-Mapping, Assessment |
+
+**250 Übungen** · 500 Übungs-/Lösungsdateien · 120 Tool-Referenzen in [`tools/`](tools/).
 
 Weitere geplante Blöcke (restliche Blue-Team-, Krypto/Identitäts- und GRC-Themen) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
 

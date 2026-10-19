@@ -44,14 +44,14 @@
 |--------|--------------|--------|--------|-----|
 | ✅ | `cryptography-basics` | Symmetrisch/asymmetrisch, Hashing, HMAC, openssl-Praxis | 1.0 | |
 | ✅ | `pki-certificates` | CA aufbauen, CSR, X.509, TLS, Cert-Chains | 1.0 / 3.0 | |
-| ⬜ | `authentication` | MFA, FIDO2, RADIUS, Kerberos, Credential-Hashing | 1.0 | |
-| ⬜ | `vpn-tunneling` | IPsec/WireGuard/OpenVPN auf OPNsense, Traffic prüfen | 3.0 | |
+| ✅ | `authentication` | MFA, FIDO2, RADIUS, Kerberos, Credential-Hashing | 1.0 | |
+| ✅ | `vpn-tunneling` | IPsec/WireGuard/OpenVPN auf OPNsense, Traffic prüfen | 3.0 | |
 
 ## Governance, Risk & Compliance (szenario-/theorielastig)
 
 | Status | Thema (slug) | Inhalt | Domäne | Lab |
 |--------|--------------|--------|--------|-----|
-| ⬜ | `security-controls` | Control-Typen (preventive/detective…), Defense in Depth | 1.0 | |
+| ✅ | `security-controls` | Control-Typen (preventive/detective…), Defense in Depth | 1.0 | |
 | ⬜ | `risk-management` | Risk Assessment, BIA, RTO/RPO, Risk Register | 5.0 | |
 | ⬜ | `governance-compliance` | Policies, Frameworks (NIST/ISO 27001), Audits | 5.0 | |
 | ⬜ | `threat-concepts` | Threat Actors, TTPs, MITRE ATT&CK, Indicators | 2.0 | |
