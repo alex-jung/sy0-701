@@ -251,3 +251,16 @@ Referenz zu allen Tools, die in den Übungen verwendet werden. Pro Tool eine `.m
 ## GRC: Security Controls & Governance
 
 *(Security Controls ist konzept-/assessment-orientiert und nutzt keine eigenen Tools, sondern bewertet die vorhandenen: [lynis](lynis.md) (Baseline/Härtung), [greenbone](greenbone.md)/[nmap](nmap.md) (Gaps/Validierung), [wazuh](wazuh.md)/[suricata](suricata.md) (Detective-Wirksamkeit) – gemappt auf CIS Controls v8, NIST 800-53/CSF, ISO 27001 und MITRE ATT&CK.)*
+
+## Data Protection
+
+| Tool | Kategorie | Zweck |
+|------|-----------|-------|
+| [cryptsetup](cryptsetup.md) | Encryption at Rest | LUKS/dm-crypt (Disk-/Volume-Verschlüsselung) |
+| [shred](shred.md) | Sanitization | Dateien/Devices sicher überschreiben (NIST 800-88) |
+
+*(Data Protection nutzt außerdem [openssl](openssl.md) (File-Encryption/TLS), Masking/Tokenization/DLP-Skripte (Regex), TPM/KMS/HSM (Key Management) und bindet `security-architecture`/`governance-compliance` ein. Die GRC-/Architektur-/Threat-Themen sind konzept-/assessment-orientiert und nutzen die bestehenden Tools.)*
+
+## GRC & Architektur (konzept-/assessment-orientiert)
+
+*(Die Themen `security-architecture`, `risk-management`, `governance-compliance`, `threat-concepts` und `physical-security` nutzen keine eigenen Tools, sondern Diagramme/Checklisten/Matrizen und bewerten vorhandene Controls — gemappt auf NIST (CSF/800-53/800-207 Zero Trust/800-88), CIS, ISO 27001, MITRE ATT&CK, DSGVO/PCI/HIPAA.)*

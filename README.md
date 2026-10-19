@@ -87,9 +87,17 @@ Die vollständige, aktuelle Liste mit Status steht in **[`topics/ROADMAP.md`](to
 | 27 | [governance-compliance](topics/governance-compliance/) | Policies/Standards/Procedures, Rollen/RACI, Frameworks, DSGVO/PCI/HIPAA, Audits, Data Governance, Awareness |
 | 28 | [threat-concepts](topics/threat-concepts/) | Threat Actors, Attack Surface/Vektoren, Malware-/Vuln-Typen, IOCs, MITRE ATT&CK/TTPs, Threat Intel, Hunting |
 
-**280 Übungen** · 560 Übungs-/Lösungsdateien · 120 Tool-Referenzen in [`tools/`](tools/).
+### Security Architecture & Data Protection (fertig ✅)
 
-Weitere geplante Blöcke (restliche GRC-Themen: `security-architecture`, `data-protection`, `physical-security`) sind in der [Roadmap](topics/ROADMAP.md) als ⬜ markiert.
+| # | Thema | Inhalt |
+|---|-------|--------|
+| 29 | [security-architecture](topics/security-architecture/) | Architektur-Modelle, Segmentierung/Zonen, Zero Trust, HA/Resilience, Cloud/Shared Responsibility, SASE, secure protocols |
+| 30 | [data-protection](topics/data-protection/) | Data States, Klassifizierung, Encryption at-rest/in-transit, Masking/Tokenization, DLP, Key Management, Sanitization, Privacy |
+| 31 | [physical-security](topics/physical-security/) | Perimeter/Barrieren, Zutrittskontrolle, Detection, menschliche Vektoren, Geräte-/Medien-Schutz, Umwelt/Strom, physische Angriffe |
+
+**310 Übungen** · 620 Übungs-/Lösungsdateien · 122 Tool-Referenzen in [`tools/`](tools/).
+
+**Alle 31 Themen der [Roadmap](topics/ROADMAP.md) sind fertig (✅).**
 
 ## SY0-701-Domänen
 
